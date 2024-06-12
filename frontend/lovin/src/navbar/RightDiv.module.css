@@ -1,0 +1,79 @@
+.rightDiv {
+  width: 276px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+.rightDiv > div {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightDiv > div > hr {
+  width: 16px;
+  height: 0px;
+  gap: 0px;
+  border: 1px solid #ededed;
+  opacity: 0px;
+  transform: rotate(-90deg);
+}
+
+.iconWrapper {
+  position: relative;
+  padding: 9px;
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  border: 1px solid #ededed;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -2px;
+  background-color: #d90000;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.welcome {
+  width: 40%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.firstUsername {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #667085;
+}
+.username {
+  font-weight: 700;
+  color: #161a34;
+  line-height: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dropdownIcon {
+  width: 20px;
+  height: 20px;
+}

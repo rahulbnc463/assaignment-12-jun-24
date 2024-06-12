@@ -1,9 +1,13 @@
-import "./App.css";
+import "./CSS/App.css";
+import Navbar from "./navbar/Navbar";
 
 function App() {
   return (
     <>
-      <div>Explore our modern collection.</div>
+      <div>
+        <Navbar />
+        <hr className="header" />
+      </div>
     </>
   );
 }
