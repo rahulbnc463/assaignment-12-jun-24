@@ -15,7 +15,8 @@ Welcome to the Lovin. project repository! This project showcases a modern and st
 
 The following screenshot provides a preview of the web page design:
 
-![Screenshot](src/assets/lovin assignment.png)
+- Home Page
+![Screenshot](frontend/lovin/src/assets/lovin_assignment.png)
 
 ## Getting Started
 
