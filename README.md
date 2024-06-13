@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd lovin-project
+    cd fontend/lovin
     ```
 3. **Open the HTML file in your browser**:
     - Open `index.html` with your preferred web browser.
