@@ -75,6 +75,11 @@
 }
 
 /* Responsive Styles */
+@media (max-width: 1024px) {
+  .navbar-search input {
+    width: 463px;
+  }
+}
 @media (max-width: 768px) {
   .navbar-search,
   .right-div {

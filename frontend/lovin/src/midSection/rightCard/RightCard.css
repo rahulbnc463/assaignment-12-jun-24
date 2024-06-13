@@ -158,3 +158,191 @@
   text-align: left;
   display: flex;
 }
+
+/* responsive */
+@media (max-width: 1024px) {
+  .cointainer .backgroundDiv {
+    width: 204px;
+    height: 552px;
+    position: relative;
+  }
+  .cointainer > .backgroundDiv > .shoes {
+    width: 152%;
+  }
+  .shoes {
+    top: 23.83px;
+    right: -20px;
+  }
+  .theCollest3 {
+    width: 123px;
+    height: 46px;
+    padding: 3px;
+    top: 312px;
+    right: 152px;
+  }
+  .theCollest {
+    width: 128px;
+    height: 47px;
+    padding: 0px;
+    top: 31px;
+    left: 163px;
+  }
+  .theCollest2 {
+    width: 138px;
+    height: 47px;
+    padding: 0px;
+    top: 243px;
+    left: 143px;
+  }
+  .theCollest2 > .headingforRounded2 {
+    font-size: 11px;
+  }
+  .theCollest3 > .headingforRounded3 {
+    font-size: 12px;
+  }
+  .theCollest > .headingforRounded {
+    font-size: 11px;
+  }
+
+  /* The Right one  */
+  .cointainer .sales-component {
+    width: 170px;
+    color: #161a34;
+    margin-bottom: 217px;
+  }
+  .sales-component p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21.8px;
+    letter-spacing: -1.5px;
+  }
+  .cta-button {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #161a34;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .cta-button .cta-text {
+    color: #161a34;
+    position: relative;
+    font-size: 13px;
+  }
+  .cta-button .cta-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #161a34;
+  }
+  .cta-button .arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    background-color: #ff6a1b;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 24px;
+  }
+}
+@media (max-width: 920px) {
+  .rightCard {
+    height: 100%;
+    width: 70%;
+  }
+  .cointainer .backgroundDiv {
+    width: 204px;
+    height: 552px;
+    position: relative;
+  }
+  .cointainer > .backgroundDiv > .shoes {
+    width: 152%;
+  }
+  .shoes {
+    top: 23.83px;
+    right: -20px;
+  }
+  .theCollest3 {
+    width: 123px;
+    height: 46px;
+    padding: 3px;
+    top: 312px;
+    right: 152px;
+  }
+  .theCollest {
+    width: 128px;
+    height: 47px;
+    padding: 0px;
+    top: 31px;
+    left: 163px;
+  }
+  .theCollest2 {
+    width: 138px;
+    height: 47px;
+    padding: 0px;
+    top: 243px;
+    left: 143px;
+  }
+  .theCollest2 > .headingforRounded2 {
+    font-size: 11px;
+  }
+  .theCollest3 > .headingforRounded3 {
+    font-size: 12px;
+  }
+  .theCollest > .headingforRounded {
+    font-size: 11px;
+  }
+
+  /* The Right one  */
+  .cointainer .sales-component {
+    width: 170px;
+    color: #161a34;
+    margin-bottom: 217px;
+  }
+  .sales-component p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21.8px;
+    letter-spacing: -1.5px;
+  }
+  .cta-button {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #161a34;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .cta-button .cta-text {
+    color: #161a34;
+    position: relative;
+    font-size: 13px;
+  }
+  .cta-button .cta-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #161a34;
+  }
+  .cta-button .arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    background-color: #ff6a1b;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 24px;
+  }
+}

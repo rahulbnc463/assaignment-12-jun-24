@@ -47,3 +47,85 @@
   top: 104px;
   left: 360px;
 }
+
+/* responsive section  */
+@media (max-width: 1024px) {
+  .leftCard .modernDiv {
+    width: 150px;
+    height: 26px;
+    padding: 3px;
+  }
+  .leftCard .modernDiv :nth-child(2) {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.2px;
+  }
+  .exploreDiv {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.8px;
+    color: #161a34;
+  }
+  .exploreDiv > div {
+    top: 91px;
+    left: 233px;
+  }
+  .exploreDiv > div > img {
+    width: 136px;
+  }
+}
+@media (max-width: 920px) {
+  .exploreDiv {
+    font-size: 62px;
+    position: relative;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -3px;
+    color: #161a34;
+    padding-top: 6px;
+    margin-top: 8px;
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  .leftCard {
+    height: 100%;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .exploreDiv > div {
+    position: absolute;
+    top: 89px;
+    left: 225px;
+  }
+  .exploreDiv > div > img {
+    width: 170px;
+  }
+}
+@media (max-width: 480px) {
+  .exploreDiv {
+    font-size: 62px;
+    position: relative;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -3px;
+    color: #161a34;
+    padding-top: 6px;
+    margin-top: 8px;
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  .leftCard {
+    height: 100%;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .exploreDiv > div {
+    position: absolute;
+    top: 89px;
+    left: 125px;
+  }
+  .exploreDiv > div > img {
+    width: 100px;
+  }
+}

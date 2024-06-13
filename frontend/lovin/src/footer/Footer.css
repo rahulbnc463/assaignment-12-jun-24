@@ -6,6 +6,24 @@
 .masterFooter {
   margin-top: 9px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.masterFooter > div {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .masterFooter > div {
+    flex: 1 1 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masterFooter > div {
+    flex: 1 1 23%;
+  }
 }
