@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { CiSearch } from "react-icons/ci";
 import RightDiv from "./RightDiv";
+import { IoMenuSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,14 @@ const Navbar = () => {
           <input type="text" placeholder="Search Product" />
         </div>
       </div>
-      <RightDiv />
+      <div className="right-div">
+        <RightDiv />
+      </div>
+      <div className="menu">
+        <IoMenuSharp />
+
+        <div>Menu</div>
+      </div>
     </nav>
   );
 };
