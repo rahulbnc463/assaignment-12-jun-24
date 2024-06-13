@@ -1,6 +1,6 @@
 # Lovin. - Modern Lifestyle Collection
 
-![Lovin Assignment Screenshot](frontend/lovin/src/assets/lovin assignment.png)
+![Lovin Assignment Screenshot](src/assets/lovin assignment.png)
 
 Welcome to the Lovin. project repository! This project showcases a modern and stylish web page for a lifestyle and fashion collection. The design emphasizes a clean layout with a focus on featured products and categories.
 
@@ -15,7 +15,7 @@ Welcome to the Lovin. project repository! This project showcases a modern and st
 
 The following screenshot provides a preview of the web page design:
 
-![Screenshot](frontend/lovin/src/assets/lovin assignment.png)
+![Screenshot](src/assets/lovin assignment.png)
 
 ## Getting Started
 
