@@ -1,6 +1,6 @@
 # Lovin. - Modern Lifestyle Collection
 
-![Lovin Assignment Screenshot](src/assets/lovin assignment.png)
+![Lovin Assignment Screenshot](src/assets/lovinAssignment.png)
 
 Welcome to the Lovin. project repository! This project showcases a modern and stylish web page for a lifestyle and fashion collection. The design emphasizes a clean layout with a focus on featured products and categories.
 
@@ -16,7 +16,7 @@ Welcome to the Lovin. project repository! This project showcases a modern and st
 The following screenshot provides a preview of the web page design:
 
 - Home Page
-![Screenshot](frontend/lovin/src/assets/lovin_assignment.png)
+![Screenshot](frontend/lovin/src/assets/lovinAssignment.png)
 
 ## Getting Started
 
@@ -24,11 +24,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/lovin-project.git
+    git clone https://github.com/your-username/assaignment-12-jun-24.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd lovin-project
+    cd fontend/lovin
     ```
 3. **Open the HTML file in your browser**:
     - Open `index.html` with your preferred web browser.
