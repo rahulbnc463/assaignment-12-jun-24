@@ -2,6 +2,7 @@ import React from "react";
 import "./RightCard.css";
 import background from "../../assets/Background.png";
 import shoes from "../../assets/Shoe.png";
+import rounde from "../../assets/roudeShape.png";
 const RightCard = () => {
   return (
     <div className="rightCard">
@@ -10,6 +11,20 @@ const RightCard = () => {
           <img src={background} alt="" />
           <div className="shoes">
             <img src={shoes} alt="" />
+          </div>
+          <div className="theCollest">
+            <img style={{ width: "46px" }} src={rounde} alt="" />
+            <div className="headingforRounded">The coolest shoes for you</div>
+          </div>
+          <div className="theCollest2">
+            <img style={{ width: "46px" }} src={rounde} alt="" />
+            <div className="headingforRounded2">
+              Endless fashion hunts are over
+            </div>
+          </div>
+          <div className="theCollest3">
+            <img style={{ width: "46px" }} src={rounde} alt="" />
+            <div className="headingforRounded3">Trusted by most innov</div>
           </div>
         </div>
 
