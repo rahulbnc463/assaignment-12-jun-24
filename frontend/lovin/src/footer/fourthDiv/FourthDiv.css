@@ -4,7 +4,31 @@
   box-sizing: border-box;
 }
 .FooterFourthDiv {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 25%;
   height: 306px;
+  background-color: #e9e5d9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.FooterFourthDiv .productPurchaseArrow {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+}
+.FooterFourthDiv > div > .productPurchase {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.FooterFourthDiv > .thirdBox450 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  letter-spacing: -2px;
+  text-align: left;
 }

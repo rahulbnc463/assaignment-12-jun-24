@@ -4,7 +4,38 @@
   box-sizing: border-box;
 }
 .FooterSecondDiv {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 25%;
   height: 306px;
+  padding: 20px;
+  background-color: #ff6a1b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.FooterSecondDiv .shopCollectionArrow {
+  display: flex;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: space-between;
+}
+.FooterSecondDiv > div > .shopCollection {
+  width: 60%;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.FooterSecondDiv > .exploreOurArtisanal {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.48px;
+  text-align: left;
+  color: #ffffff99;
+}
+.FooterSecondDiv > .exploreOurArtisanal > span {
+  color: #ffffff;
 }
